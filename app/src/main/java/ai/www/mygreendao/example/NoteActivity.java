@@ -56,8 +56,7 @@ public class NoteActivity extends AppCompatActivity {
         setUpViews();
 
         //测试
-        //测试
-        //测试
+        
         // get the note DAO
         DaoSession daoSession = ((App) getApplication()).getDaoSession();
         noteDao = daoSession.getNoteDao();
